@@ -4,7 +4,7 @@
 rm -r -f ./build ./MANIFEST.MF
 
 ## manifest
-echo Class-Path: libs/commons-collections4-4.4.jar libs/commons-io-1.3.2.jar libs/commons-lang3-3.12.0.jar libs/commons-math3-3.6.1.jar libs/commons-pool2-2.11.1.jar libs/commons-text-1.9.jar Main-Class: ua.com.alevel.Main>MANIFEST.MF
+printf "Class-Path: libs/commons-collections4-4.4.jar libs/commons-io-1.3.2.jar libs/commons-lang3-3.12.0.jar libs/commons-math3-3.6.1.jar libs/commons-pool2-2.11.1.jar libs/commons-text-1.9.jar\nMain-Class: ua.com.alevel.Main\n">MANIFEST.MF
 
 ## compile
 javac -sourcepath ./src -d build/classes -cp ./libs/*: src/ua/com/alevel/Main.java
