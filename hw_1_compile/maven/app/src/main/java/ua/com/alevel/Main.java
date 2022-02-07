@@ -6,8 +6,10 @@ import ua.com.alevel.imports.MathPool;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Maven build");
         new CollectionsIo().start();
         new LangText().start();
         new MathPool().start();
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
     }
 }
