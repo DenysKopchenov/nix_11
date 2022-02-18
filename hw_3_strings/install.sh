@@ -4,4 +4,5 @@ cd ../
 
 mvn clean install
 
-cd hw_3_strings/
+cd /hw_3_strings/
+
